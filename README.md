@@ -4,40 +4,53 @@
 
 This project analyzes advertising performance across Facebook, Google, and TikTok by integrating multiple datasets into a unified data model. The objective is to provide clear insights into campaign performance, cost efficiency, and trends using an interactive Power BI dashboard.
 
-Data Sources
+# 📂 Data Sources
 
-# The analysis is based on three datasets:
+The analysis is based on advertising data from three platforms:
 
 Facebook Ads
 Google Ads
 TikTok Ads
 
-These datasets were combined into a single unified table to enable consistent cross-platform analysis.
+These datasets were combined into a single unified structure to enable consistent cross-channel analysis.
 
-Data Modeling
-Created a unified dataset from multiple sources
-Developed calculated measures including:
+# 🧱 Data Modeling
+Consolidated multiple datasets into a unified table
+Created calculated measures for:
 Total Spend
 Total Conversions
 Click-Through Rate (CTR)
 Cost per Conversion
-Ensured consistent structure for accurate comparison across platforms
-Dashboard Components
-KPI Cards: Summary of total spend, conversions, CTR, and cost per conversion
-Spend Distribution by Platform: Donut chart showing budget allocation
-Platform Efficiency (CTR vs Cost): Scatter plot to analyze efficiency
-Conversions by Platform: Bar chart comparing performance
-Daily Conversions Trend: Line chart showing trends over time
-Campaign Performance Details: Table with campaign-level metrics and conditional formatting
-Platform Filter: Enables interactive filtering by platform
-Key Insights
-TikTok generates the highest number of conversions
-Google shows strong efficiency based on CTR
-Certain campaigns have higher cost per conversion and may require optimization
-Conversion trends indicate fluctuations with identifiable peak periods
+Ensured consistent schema across platforms for accurate comparison
+
+# 📈 Dashboard Features
+🔹 KPI Cards
+Total Spend
+Total Conversions
+CTR (%)
+Cost per Conversion
+🔹 Spend Distribution by Platform (Donut Chart)
+Visualizes budget allocation across platforms
+🔹 Platform Efficiency (Scatter Plot)
+Shows relationship between CTR and Cost per Conversion
+Helps identify high-efficiency platforms
+🔹 Conversions by Platform (Bar Chart)
+Compares conversion performance across channels
+🔹 Daily Conversions Trend (Line Chart)
+Tracks performance trends over time
+🔹 Campaign Performance Details (Table)
+Detailed campaign-level metrics
+Conditional formatting to highlight performance variations
+🔹 Platform Filter (Slicer)
+Enables interactive filtering by platform
+🔍 Key Insights
+TikTok drives the highest number of conversions
+Google demonstrates strong efficiency with competitive CTR
+Some campaigns show higher cost per conversion, indicating optimization opportunities
+Conversion trends highlight fluctuations and peak performance periods
 
 # Tools Used
-Power BI
+Power BI, SQL, Snowflake
 DAX (Data Analysis Expressions)
 Data Integration and Transformation
 
