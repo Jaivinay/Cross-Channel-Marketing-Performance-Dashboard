@@ -9,7 +9,9 @@ This project analyzes advertising performance across Facebook, Google, and TikTo
 The analysis is based on advertising data from three platforms:
 
 Facebook Ads
+
 Google Ads
+
 TikTok Ads
 
 These datasets were combined into a single unified structure to enable consistent cross-channel analysis.
@@ -29,21 +31,29 @@ Total Spend
 Total Conversions
 CTR (%)
 Cost per Conversion
+
 🔹 Spend Distribution by Platform (Donut Chart)
 Visualizes budget allocation across platforms
+
 🔹 Platform Efficiency (Scatter Plot)
 Shows relationship between CTR and Cost per Conversion
 Helps identify high-efficiency platforms
+
 🔹 Conversions by Platform (Bar Chart)
 Compares conversion performance across channels
+
 🔹 Daily Conversions Trend (Line Chart)
 Tracks performance trends over time
+
 🔹 Campaign Performance Details (Table)
 Detailed campaign-level metrics
 Conditional formatting to highlight performance variations
+
 🔹 Platform Filter (Slicer)
 Enables interactive filtering by platform
+
 🔍 Key Insights
+
 TikTok drives the highest number of conversions
 Google demonstrates strong efficiency with competitive CTR
 Some campaigns show higher cost per conversion, indicating optimization opportunities
