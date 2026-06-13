@@ -52,7 +52,7 @@ Conditional formatting to highlight performance variations
 🔹 Platform Filter (Slicer)
 Enables interactive filtering by platform
 
-🔍 Key Insights
+🔍 Key Insights..
 
 TikTok drives the highest number of conversions
 Google demonstrates strong efficiency with competitive CTR
